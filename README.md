@@ -2,10 +2,11 @@
 
 Oi, eu sou a Amanda!
 Neste projeto, tentei criar um timer Pomodoro simples usando React e empacotá-lo com Electron para rodar como um app de desktop 💻.
-
-⚠️ Aviso: até agora, o .exe do Electron não abriu direito, então talvez o código ainda esteja meio bugado. Mas o foco é aprender e organizar o projeto!
 ---
 
+⚠️ Aviso: até agora, o .exe do Electron não abriu direito, então talvez o código ainda esteja meio bugado. Mas o foco é aprender e organizar o projeto!
+
+---
 ##  ✨ Funcionalidades
 
 - ☑️ Timer Pomodoro simples e fofo
@@ -69,6 +70,8 @@ npm run start
 npm run electron
 ```
 💜 Por enquanto, o .exe ainda não abre direito 😅, mas essa parte está em desenvolvimento.
+
+
 
 
 
