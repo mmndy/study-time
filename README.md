@@ -62,7 +62,6 @@ npm run start
 ```
 
 🟣 Abre o React no navegador em http://localhost:3000
-💡 Aqui você consegue testar a interface e o timer sem depender do Electron ainda.
 
 ### 4. Rodar o Electron (quando estiver pronto)
 
