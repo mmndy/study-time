@@ -1,0 +1,126 @@
+/* =========================
+   Fonte Customizada
+   ========================= */
+@font-face {
+  font-family: 'Retrograde-Regular'; /* Nome da fonte que vamos usar */
+  src: url('./assets/Retrograde-Regular.otf') format('opentype'); /* Caminho para o arquivo da fonte */
+  font-weight: normal; /* Peso padrão */
+  font-style: normal;   /* Estilo normal, sem itálico */
+}
+
+/* Aplica a fonte para todo o corpo do app e remove margens/paddings */
+body {
+  font-family: 'Retrograde-Regular', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* =========================
+   Container Principal
+   ========================= */
+.home-container {
+  width: 400px; /* Largura fixa do container */
+  height: 490px; /* Altura fixa do container */
+  background-image: url('./assets/background.png'); /* Imagem de fundo */
+  background-size: cover; /* Preenche todo o container sem distorcer */
+  background-position: center; /* Centraliza a imagem */
+  display: flex; /* Flexbox para centralizar conteúdo */
+  align-items: center; /* Alinha verticalmente ao centro */
+  justify-content: center; /* Alinha horizontalmente ao centro */
+  border-radius: 12px; /* Cantos arredondados */
+  box-sizing: border-box; /* Padding e border dentro do tamanho definido */
+  text-align: center; /* Texto centralizado */
+}
+
+/* =========================
+   Conteúdo Interno
+   ========================= */
+.home-content {
+  display: flex;
+  flex-direction: column; /* Organiza em coluna */
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: space-between; /* Espaço entre elementos */
+  height: 100%;
+  width: 100%;
+  padding-top: 60px; /* Espaço no topo */
+  padding-bottom: 20px; /* Espaço na base */
+  box-sizing: border-box;
+}
+
+/* =========================
+   Texto de incentivo
+   ========================= */
+.encouragement-text {
+  font-size: 1.25rem; /* Tamanho confortável de ler */
+  color: #cbdbfc; /* Cor roxinha */
+  margin-bottom: 0.5rem; /* Pequeno espaçamento abaixo */
+  animation: fadeIn 1s ease-in-out; /* Animação de entrada suave */
+  transition: opacity 0.8s ease; /* Transição para sumir/entrar suavemente */
+}
+
+/* Classe para esconder o texto sem quebrar o layout */
+.encouragement-text.hidden {
+  opacity: 0;
+}
+
+/* =========================
+   Controles / Botões
+   ========================= */
+.home-controls {
+  display: flex; /* Linha de botões */
+  justify-content: center; /* Centraliza os botões */
+  margin: 0;
+}
+
+/* Botão que é só imagem, sem fundo ou borda */
+.image-button {
+  background: none;
+  border: none;
+  cursor: pointer; /* Muda o cursor para mãozinha */
+}
+
+.image-button img {
+  width: 100px; /* Tamanho da imagem do botão */
+}
+
+/* =========================
+   Timer do app
+   ========================= */
+.home-timer {
+  font-size: 60px; /* Bem grande, fácil de ler */
+  color: #cbdbfc; /* Cor azul clara */
+  margin: 0;
+}
+
+/* GIF do app */
+.gif-image {
+  height:100px; /* Mantém o tamanho sem deformar */
+}
+
+/* Outro botão de imagem, menor */
+.home-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.home-button img {
+  width: 60px;
+}
+
+/* =========================
+   Botão de fechar
+   ========================= */
+.close-button {
+  position: absolute; /* Fixa no canto */
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-button img {
+  width: 24px;
+  height: 24px;
+}
