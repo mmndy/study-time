@@ -1,10 +1,9 @@
 # ⏱️ Study Time – Timer Pomodoro “Cozy Vibes” com React + Electron 💜
 
 Oi, eu sou a Amanda!
-Neste projeto, tentei criar um timer Pomodoro simples usando React e empacotá-lo com Electron para rodar como um app de desktop 💻.
----
+Neste projeto, criei um timer Pomodoro simples usando React e preparei para rodar com Electron como um app de desktop 💻.
 
-⚠️ Aviso: até agora, o .exe do Electron não abriu direito, então talvez o código ainda esteja meio bugado. Mas o foco é aprender e organizar o projeto!
+⚠️ Aviso: o .exe do Electron ainda não abre direito; o app desktop está em desenvolvimento.
 
 ---
 ##  ✨ Funcionalidades
