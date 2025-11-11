@@ -20,7 +20,7 @@ Neste projeto, criei um timer Pomodoro simples usando React e preparei para roda
 
 ---
 
-## 🛠️ Tecnologias Utilizadas:
+## ⚙️ Tecnologias Utilizadas:
 
 - 🟣 React – Biblioteca para criar a interface
 - 🟣 Electron – Para transformar o projeto em app desktop
