@@ -71,12 +71,9 @@ npm run electron
 💜 Por enquanto, o .exe ainda não abre direito 😅, mas essa parte está em desenvolvimento.
 
 
-
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/43c0f8f4-c418-41d1-a0a0-38d9fab63efc" width="450" style="border-radius: 12px;">
+  <img src="https://github.com/user-attachments/assets/21c4cd67-482d-463b-9c2d-e2f4d514d2d0" width="450" style="border-radius: 12px;">
 </p>
-
 
 
 
