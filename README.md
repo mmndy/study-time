@@ -26,6 +26,7 @@ Neste projeto, criei um timer Pomodoro simples usando React e preparei para roda
 - 🟣 Electron – Para transformar o projeto em app desktop
 - 🟣 Node.js – Ambiente de execução
 - 🟣 CSS puro – Para estilos
+- 🟣 Aseprite - Criação dos botões
 
 ---
 
@@ -69,6 +70,12 @@ npm run electron
 ```
 💜 Por enquanto, o .exe ainda não abre direito 😅, mas essa parte está em desenvolvimento.
 
+
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/43c0f8f4-c418-41d1-a0a0-38d9fab63efc" width="450" style="border-radius: 12px;">
+</p>
 
 
 
